@@ -29,7 +29,7 @@ y <- scan()
 
 *#Paste the Y coordinates of neurons here, separated by space.*
 
-***Input the X and Y coordinates of ROI (e.g., the dentate gyrus)***
+***Input the X and Y coordinates of the polygon ROI (e.g., the dentate gyrus)***
 
 *#Note: In R, the coordinates of ROI vertices are in principle traversed anticlockwise. However, we determine ROI vertex coordinates in a clockwise manner in ImageJ/Fiji, and the ROI will be plotted upside down in R. In case that one direction does not work, just try the other way. This can be facilitated, for example, by sorting data in Excel.*
 
@@ -45,9 +45,9 @@ unitname(p)<-list("unit","unit", #length_of_unit)
 
 summary(p)
  
-***Plot the polygon ROI and neuronal points***
+***Plot ROI and neuronal points***
 
-*#Note: for more plotting options, see "Spatial Point Patterns: Methodology and Applications with R".*
+*#Note: for more plotting options, see the book "Spatial Point Patterns: Methodology and Applications with R" by Baddeley et al.*
 
 plot(p)
 
