@@ -11,7 +11,7 @@ Use R spatstat package to analyze the spatial distribution pattern of neurons
 
 # Data:
 
-The X and Y coordinates of neuronal points and vertices of the region of interest (ROI). This information can be extracted, for example, by ImageJ/Fiji.
+The X and Y coordinates of neuronal points as well as the vertices of the region of interest (ROI). This information can be obtained, for example, using ImageJ/Fiji.
 
 -----
 # R codes:
