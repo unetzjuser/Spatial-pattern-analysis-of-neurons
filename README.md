@@ -19,7 +19,7 @@ The X and Y coordinates of neuronal points as well as the vertices of the region
 
 library(spatstat)
 
-***Input the X and Y coordinates of points***
+***Input the X and Y coordinates of points (i.e., neurons)***
 
 x <- scan()
 
